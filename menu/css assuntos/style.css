@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+  color: #79280d;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #000000;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: white;
+  background: url("./imagens/background-assuntos.jpg") no-repeat;
+  background-position-y: 67px;
+  background-position-x: -40px;
+  width: 100%;
+  height: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+header ul li {
+  padding: 16px;
+}
+main {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+main ul {
+  margin: 0px;
+  padding: 0px;
+}
+main ul li {
+  background: url("./imagens/background\ dos\ assuntos.jpg"), no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  margin: 24px;
+  transition: all 0.25s;
+}
+main ul li:hover {
+  transform: scaleX(1.15);
+}
+main ul li a {
+  display: inline-flex;
+  padding: 21%;
+}
