@@ -1,0 +1,34 @@
+body h1,
+h2,
+.list-exercise {
+  background: #d99879;
+  font-weight: 700;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 8px;
+  border-radius: 8px;
+}
+main {
+  background: #f4cca4;
+  padding: 16px;
+  box-sizing: border-box;
+  font-weight: 400;
+  padding: 16px;
+  border-radius: 8px;
+}
+.subject {
+  background: #e99949;
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 8px;
+}
+.list-exercise {
+  color: #000000;
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 700;
+}
+.end-page {
+  font-weight: 700;
+  font-size: 24px;
+}

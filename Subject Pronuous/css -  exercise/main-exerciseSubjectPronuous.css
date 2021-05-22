@@ -1,0 +1,24 @@
+main {
+  background: #f4cca4;
+  border-radius: 8px;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 900px;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.dicionario {
+  background: #d99879;
+  border-radius: 8px;
+  padding: 16px;
+}
+.dicionario span {
+  display: block;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
