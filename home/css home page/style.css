@@ -11,7 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: url("./imagem/background-home.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 header {
   display: flex;
@@ -38,25 +38,9 @@ main {
 section {
   background: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 250px;
-  margin-top: 400px;
-  margin-left: 450px;
   padding: 16px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
-}
-footer ul {
-  display: flex;
-  justify-content: flex-end;
-}
-footer ul li {
-  margin: 16px;
-  transition: all 0.25;
-  padding: 6px;
-}
-footer ul li:hover {
-  transform: scale(1.15);
-  background: #b85f26;
-  border-radius: 8px;
 }

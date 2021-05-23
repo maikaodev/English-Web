@@ -3,6 +3,7 @@
   list-style: none;
   text-decoration: none;
   color: #79280d;
+  margin: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -11,42 +12,60 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 body {
-  background-color: white;
-  background: url("./imagens/background-assuntos.jpg") no-repeat;
-  background-position-y: 67px;
-  background-position-x: -40px;
-  width: 100%;
-  height: 100%;
+  background: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
 }
 header ul {
   display: flex;
-  justify-content: flex-end;
   font-weight: 700;
+  padding-right: 16px;
+  margin: 0;
 }
 header ul li {
   padding: 16px;
+  transition: all 0.5s;
+}
+header ul li:hover {
+  transform: scale(1.15);
 }
 main {
-  display: inline-flex;
-  justify-content: flex-end;
+  display: flex;
+}
+main div img {
+  width: 50%;
+  height: 100%;
 }
 main ul {
-  margin: 0px;
-  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 662px;
 }
 main ul li {
-  background: url("./imagens/background\ dos\ assuntos.jpg"), no-repeat;
+  background: url("./imagens/background\ dos\ assuntos.jpg");
   background-size: cover;
-  font-weight: bold;
-  margin: 24px;
-  transition: all 0.25s;
+  margin-right: 46px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: all 0.5s;
 }
 main ul li:hover {
-  transform: scaleX(1.15);
+  transform: scale(1.15);
 }
 main ul li a {
-  display: inline-flex;
-  padding: 21%;
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: all 0.5s;
+}
+main ul li a:hover {
+  transform: scale(1.05);
 }
